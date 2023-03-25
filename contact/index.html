@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="titleName"><a id="titleHeader" href="../home/index.html">Fábio Makoto Akita</a></h1>
+
+        <a href="#!" id="menu-burguer"><img class="nav_ico" src="img/nav-icon.png" alt="icon-burguer"></a>
+
+        <nav id="container-menu">
+            <ul class="menu">
+                <li><a href="../home/index.html">Início</a></li>
+                <li><a href="../about/index.html">Sobre</a></li>
+                <li><a href="../portfolio/TRABALHO.HTML">Portfólio</a></li>
+                <li><a href="../news/Novidades Fábio Akita.html">Novidades</a></li>
+                <li><a id="cttBorderFix" href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="titlesInitial">
+        <h1 id="titleContact">Contato</h1>
+        <h3>_Fale comigo_</h3>
+    </section>
+
+    <main>
+        <aside id="social-medias">
+            <ul>
+                <li><a href="https://br.linkedin.com/in/akitaonrails" target="_blank" rel="noopener noreferrer">
+                        <img src="img/linkedin.png" alt="icon-linkedin">
+                        <span>LinkedIn</span></a>
+                </li>
+                <li><a href="http://www.akitaonrails.com" target="_blank" rel="noopener noreferrer">
+                        <img src="img/blog.png" alt="icon-blog.png">
+                        <span>Blog</span></a>
+                </li>
+                <li><a href="https://github.com/akitaonrails" target="_blank" rel="noopener noreferrer">
+                        <img src="img/github.png" alt="icon-github">
+                        <span>GitHub</span></a>
+                </li>
+                <li><a href="https://www.facebook.com/akitaonrails/?locale=pt_BR" target="_blank" rel="noopener noreferrer">
+                        <img src="img/facebook.png" alt="icon-facebook">
+                        <span>Facebook</span></a>
+                </li>
+                <li><a href="https://twitter.com/AkitaOnRails" target="_blank" rel="noopener noreferrer">
+                        <img src="img/twitter.png" alt="icon-twitter.png">
+                        <span>Twitter</span></a>
+                </li>
+                <li><a href="https://www.instagram.com/akitaonrails/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/instagram.png" alt="icon-instagram.png">
+                        <span>Instagram</span></a>
+                </li>
+                <li><a href="www.youtube.com/user/AkitaOnRails" target="_blank" rel="noopener noreferrer">
+                        <img src="img/youtube.png" alt="icon-facebook">
+                        <span>YouTube</span></a>
+                </li>
+            </ul>
+        </aside>
+        <hr>
+        <form action="#">
+            <h3 id="textMsg">Mensagem</h3>
+            <div class="fields">
+                <div class="fieldName">
+                    <input id="name" type="text" placeholder="Nome" required>
+                </div>
+                <div class="fieldLastName">
+                    <input id="last-name" type="text" placeholder="Sobrenome" required>
+                </div>
+            </div>
+            <div class="field">
+                <div class="fieldEmail">
+                    <input id="email" type="email" placeholder="E-mail" required>
+                </div>
+                <div class="fieldTextArea">
+                    <textarea id="fieldMsg" cols="30" rows="7" placeholder="Escrever..."></textarea>
+                </div>
+                <div class="button">
+                    <button id="btn" type="submit">Enviar</button>
+                </div>
+            </div>
+        </form>
+        <section class="msg-box">
+            <div id="msg">
+                <p id="text-box">Mensagem enviada com sucesso! Obrigado por entrar em contato. Prazo de resposta: até 3
+                    dias úteis.</p>
+                <button id="close">Fechar</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

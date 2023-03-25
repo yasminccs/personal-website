@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+* {
+    margin:  0;
+    padding:  0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', 'Roboto';
+}
+header {
+    background-color: #5673cc;
+    color: #fff;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 70px;
+}
+
+body {
+    width: 100vw;
+    color: #fff;
+}
+
+h1 {
+    text-align: calc(7px);
+    color: black;
+    margin: 0;
+    text-indent: 3ch;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+p {
+    text-align: unset;
+    color: black;
+    margin: 1;
+    text-indent: 3ch;
+    
+}
+
+h1 > a#tittleHeader{
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.menu {
+    list-style: none;
+    font-weight: 500;
+    display: flex;   
+}
+
+ul.menu > li > a {
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    margin-inline: 15px;
+}
+
+ul.menu > li > a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 395px;
+    margin: 50px 100px;
+    float: left;
+    text-indent: 3ch;
+    display: flex;
+    flex-direction: row;
+}
