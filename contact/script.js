@@ -18,10 +18,10 @@ document.querySelector('#btn').addEventListener('click', function () {
 
 const nav_menu = document.querySelector('#container-menu')
 document.querySelector('#menu-burguer').addEventListener('click', function () {
-   if(nav_menu.style.display = 'none'){
+   if(nav_menu.style.display == 'none'){
       nav_menu.style.display = 'block'
    } else {
-      nav_menu.style.display = 'none' //nao funciona
+      nav_menu.style.display = 'none'
    }
 })
 

@@ -114,6 +114,7 @@ nav#container-menu ul li a {
 h1 > a#titleHeader{
     font-size: .8em;
     color: #fff;
+    text-shadow: 1px 1px 1px black;
     text-decoration: none;
 }
 
@@ -140,6 +141,7 @@ h3#textMsg{
 
 form {
     margin-inline: 15px;
+    height: 70vh;
 }
 
 #name, #last-name, #email, #fieldMsg {
@@ -164,7 +166,7 @@ button#btn {
     color: #fff;
     font-size: 1.1em;
     font-weight: 500;
-    padding: 15px 40px;
+    padding: 10px 30px;
     border-radius: 5px;
     border: 1px solid #5673cc;
     cursor: pointer;
@@ -181,8 +183,7 @@ hr {
 }
 
 aside{
-    width: 70px;
-    margin-right: 40px;
+    width: 70vw;
     margin-bottom: 20px;
     transition: all 0.3s linear;
     box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4);
@@ -191,7 +192,7 @@ aside{
 aside li{
     list-style: none;
     height: 50px;
-    position:relative;
+    position: relative;
 }
 
 aside li a{
@@ -286,29 +287,6 @@ ul li a span{
     button#btn {
         font-size: 2.1em;
     }
-
-    /* aside#social-medias {
-        height: 90vh;
-        margin: 25px 15px;
-    }
-
-    h3#titleSocialMedia {
-        font-size: 3.5em;
-        margin-bottom: 60px;
-    } 
-
-    img {
-        width: 60px;
-        margin-right: 10px;
-    }
-    
-    ul#menu-socialMedias > li {
-        margin-bottom: 30px;
-    }
-    
-    ul#menu-socialMedias > li > a{
-        font-size: 2.6em;
-    } */
 }
 
 @media screen and (min-width: 1024px){
@@ -387,6 +365,7 @@ ul li a span{
 
     form {
         width: 60vw;
+        height: unset;
     }
 
     h3#textMsg{
@@ -414,4 +393,15 @@ ul li a span{
         padding-left: 30%;
         display: block;
     }
+
+    aside {
+        width: 70px;
+        margin-right: 40px;
+    }
+
+    aside li a {
+        margin-right: 10px;
+    }
 }
+
+/* aside sobrepondo menu (?) */
